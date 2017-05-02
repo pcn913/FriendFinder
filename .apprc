@@ -1,0 +1,14 @@
+[development]
+title = Friend Finder [dev]
+port = 3000
+tableLimit = 5
+
+[test]
+title = Friend Finder [test]
+port = 3000
+tableLimit = 5
+
+[production]
+title = Friend Finder
+port = 3000
+tableLimit = 5
