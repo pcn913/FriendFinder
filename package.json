@@ -2,7 +2,7 @@
   "name": "FriendFinder",
   "version": "1.0.0",
   "description": "Find my friends",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server",
     "dev": "./node_modules/.bin/nodemon server"
