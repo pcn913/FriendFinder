@@ -1,5 +1,6 @@
 'use strict';
 
+var cool = require('cool-ascii-faces');
 const express = require('express');
 const bodyParser = require('body-parser');
 const _ = require('lodash');
@@ -18,6 +19,10 @@ app.use(bodyParser.json({type: "application/vnd.api+json"}));
 
 require('./app/routing/apiRoutes')(app);
 require('./app/routing/htmlRoutes')(app);
+
+app.get('/cool', function(request, response) {
+  response.send(cool());
+});
 
 
 
