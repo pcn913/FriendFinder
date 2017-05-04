@@ -4,7 +4,7 @@
   "description": "Find my friends",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server",
+    "start": "node server",
     "dev": "./node_modules/.bin/nodemon server"
   },
   "repository": {
